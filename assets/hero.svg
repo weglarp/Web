@@ -1,0 +1,31 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 960 480'>
+  <defs>
+    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0' stop-color='#0b0e14'/>
+      <stop offset='1' stop-color='#121a2b'/>
+    </linearGradient>
+    <linearGradient id='wire' x1='0' y1='0' x2='1' y2='0'>
+      <stop offset='0' stop-color='#22d3ee'/>
+      <stop offset='1' stop-color='#3b82f6'/>
+    </linearGradient>
+  </defs>
+  <rect width='100%' height='100%' fill='url(#bg)'/>
+  <g filter='url(#f)'>
+    <path d='M0 300 C 200 260, 300 340, 480 320 S 780 260, 960 300' stroke='url(#wire)' stroke-width='3' fill='none' opacity='0.8'/>
+    <circle cx='160' cy='300' r='6' fill='#22d3ee'/>
+    <circle cx='480' cy='320' r='6' fill='#3b82f6'/>
+    <circle cx='800' cy='300' r='6' fill='#22d3ee'/>
+  </g>
+  <g fill='none' stroke='#2a3550' stroke-width='1'>
+    <rect x='80' y='120' width='180' height='120' rx='10'/>
+    <rect x='300' y='90' width='140' height='80' rx='8'/>
+    <rect x='480' y='140' width='180' height='110' rx='10'/>
+    <rect x='700' y='100' width='160' height='100' rx='12'/>
+  </g>
+  <g fill='#8ab4f7'>
+    <text x='90' y='150' font-size='20'>PLC</text>
+    <text x='310' y='120' font-size='18'>HMI</text>
+    <text x='490' y='170' font-size='20'>SCADA</text>
+    <text x='710' y='130' font-size='20'>MES</text>
+  </g>
+</svg>
